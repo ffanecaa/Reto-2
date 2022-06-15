@@ -1,0 +1,80 @@
+
+body{
+    background-color: rgb(252, 248, 244);
+    font-family: sans-serif;
+}
+
+.encabezado  {
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+.title{
+    display:block;
+    text-align: center;
+
+}
+.title_thin{
+    color:#999;
+}
+
+.texto{
+    text-align: center;
+    color:rgb(143, 121, 121);
+    opacity: 0.8;
+}
+/*.cards{
+   position:relative;
+    background-color: rgb(26, 76, 121);
+    border:5px solid rgb(26, 76, 121);
+    width: 400px;
+    height: 450px;
+    margin-left:auto;
+    margin-right:auto;
+}*/
+
+.card1{
+    position: absolute;
+    top: 50vh;
+    left: 50vh;
+    border: 2px solid rgb(245, 238, 238);
+    border-top: 5px solid rgb(27, 24, 197);
+
+}
+.card2{
+    position: absolute;
+    top: 20vh;;
+    left: 80vh;
+    border: 2px solid rgb(245, 238, 238);
+    border-top: 5px solid rgb(207, 41, 29);
+
+}
+.card3{
+    position: absolute;
+    top: 80vh;
+    left: 80vh;
+    border: 2px solid rgb(245, 238, 238);
+    border-top: 5px solid rgb(105, 194, 45);}
+
+.card4{
+    position: absolute;
+    top: 50vh;
+    left:110vh;
+    border: 2px solid rgb(245, 238, 238);
+     border-top: 5px solid rgb(45, 152, 194);
+    
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    text-align:center;
+   border-radius: 10px;
+   box-shadow: 5px 5px #eee
+}
+.icono{
+    position: absolute;
+    botton: 5px;
+    right: 20px;
+    
+} 
